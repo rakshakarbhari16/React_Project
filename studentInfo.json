@@ -1,0 +1,186 @@
+{
+    "studentInfo":[
+        {
+            "id":1,
+            "studentId":1,
+            "RegisterId":"3PD19CS001",
+            "StudentName":"Harsha",
+            "FatherName":"Shivsharanappa",
+            "CollegeName":"PDA College of Engg",
+            "code":"CSE001",
+            "subject":"Java",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"65",
+            "result":"Pass"
+
+        },
+        {
+            "id":2,
+            "studentId":1,
+            "RegisterId":"3PD19CS001",
+            "StudentName":"Harsha",
+            "FatherName":"Shivsharanappa",
+            "CollegeName":"PDA College of Engg",
+            "code":"CSE002",
+            "subject":"Python",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"45",
+            "result":"Pass"
+
+        },
+        {
+            "id":3,
+            "studentId":1,
+            "RegisterId":"3PD19CS001",
+            "StudentName":"Harsha",
+            "FatherName":"Shivsharanappa",
+            "CollegeName":"PDA College of Engg",
+            "code":"CSE003",
+            "subject":"DBMS",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"78",
+            "result":"Pass"
+
+        },
+        {
+            "id":4,
+            "studentId":1,
+            "RegisterId":"3PD19CS001",
+            "StudentName":"Harsha B",
+            "FatherName":"Shivsharanappa Biradar",
+            "CollegeName":"PDA College of Engg",
+            "code":"CSE004",
+            "subject":"AWS",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"28",
+            "result":"Fail"
+
+        },
+        {
+            "id":5,
+            "studentId":2,
+            "RegisterId":"3PD19CV103",
+            "StudentName":"Naveen P",
+            "FatherName":"Basava Patil",
+            "CollegeName":"PDA College of Engg",
+            "code":"CVE001",
+            "subject":"Cad",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"55",
+            "result":"Pass"
+
+        },
+        {
+            "id":6,
+            "studentId":2,
+            "RegisterId":"3PD19CV103",
+            "StudentName":"Naveen P",
+            "FatherName":"Basava Patil",
+            "CollegeName":"PDA College of Engg",
+            "code":"CVE002",
+            "subject":"Fluid Mechanics",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"45",
+            "result":"Pass"
+
+        },
+        {
+            "id":7,
+            "studentId":2,
+            "RegisterId":"3PD19CV103",
+            "StudentName":"Naveen P",
+            "FatherName":"Basava Patil",
+            "CollegeName":"PDA College of Engg",
+            "code":"CVE003",
+            "subject":"Staad",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"91",
+            "result":"Pass"
+
+        },
+        {
+            "id":8,
+            "studentId":2,
+            "RegisterId":"3PD19CV103",
+            "StudentName":"Naveen P",
+            "FatherName":"Basava Patil",
+            "CollegeName":"PDA College of Engg",
+            "code":"CVE004",
+            "subject":"Field Visit",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"80",
+            "result":"Pass"
+
+        },
+        {
+            "id":9,
+            "studentId":3,
+            "RegisterId":"3OU19EC103",
+            "StudentName":"Sam Smith",
+            "FatherName":"Robert Smith",
+            "CollegeName":"Oxford University",
+            "code":"ECE001",
+            "subject":"Logic Design",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"60",
+            "result":"Pass"
+
+        },
+        {
+            "id":10,
+            "studentId":3,
+            "RegisterId":"3OU19EC103",
+            "StudentName":"Sam Smith",
+            "FatherName":"Robert Smith",
+            "CollegeName":"Oxford University",
+            "code":"ECE002",
+            "subject":"VLSI",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"55",
+            "result":"Pass"
+
+        },
+        {
+            "id":11,
+            "studentId":3,
+            "RegisterId":"3OU19EC103",
+            "StudentName":"Sam Smith",
+            "FatherName":"Robert Smith",
+            "CollegeName":"Oxford University",
+            "code":"ECE003",
+            "subject":"Digital Communication",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"60",
+            "result":"Pass"
+
+        },
+        {
+            "id":12,
+            "studentId":3,
+            "RegisterId":"3OU19EC103",
+            "StudentName":"Sam Smith",
+            "FatherName":"Robert Smith",
+            "CollegeName":"Oxford University",
+            "code":"ECE004",
+            "subject":"Signals and Systems",
+            "max_marks":"100",
+            "min_marks":"35",
+            "Obtained_marks":"45",
+            "result":"Pass"
+
+        }
+        
+        
+    ]
+}

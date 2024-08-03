@@ -1,5 +1,6 @@
 import React from "react";
 import {Navbar, Nav, NavDropdown,Container,Image} from 'react-bootstrap';
+import {LinkContainer} from 'react-router-bootstrap';
 
 const Header = () => {
 
@@ -8,18 +9,27 @@ const Header = () => {
           <header>
           <Navbar className="navbar-style" expand="lg">
             <Container>
-            <Navbar.Brand href="#">
-            <Image className="logo-style"
-            src= 'images/logo.jpeg'  roundedCircle />
-            <h6 className="logo-text">Visvesvaraya Technological University</h6>
-            </Navbar.Brand>
+            <LinkContainer to='/'>
+              <Navbar.Brand href="/">
+              <Image className="logo-style"
+              src= 'images/logo.jpeg'  roundedCircle />
+              <h6 className="logo-text">Visvesvaraya Technological University</h6>
+              </Navbar.Brand>
+            </LinkContainer>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav"></Navbar.Collapse>
             <Nav className="ml-auto">
-              <Nav.Link href="#">Home</Nav.Link>
-              <Nav.Link href="#">About us</Nav.Link>
+              <LinkContainer to='/'>
+                <Nav.Link href="#">Home</Nav.Link>
+              </LinkContainer>
+              <LinkContainer to='/about'>
+              <Nav.Link href="#">About us</Nav.Link> 
+              </LinkContainer>
               <NavDropdown title="Academics" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#">Admissions</NavDropdown.Item>
+                <LinkContainer to='/admission'>
+                  <NavDropdown.Item href="#">Admissions</NavDropdown.Item>
+                </LinkContainer>
+                
                 <NavDropdown.Item href="#"> Circulars and Notificaions</NavDropdown.Item>
                 <NavDropdown.Item href="#">Certificate Issued</NavDropdown.Item>
                 
@@ -27,7 +37,10 @@ const Header = () => {
               <NavDropdown title="Examination" id="basic-nav-dropdown">
                 <NavDropdown.Item href="#">Examination Guidelines</NavDropdown.Item>
                 <NavDropdown.Item href="#">Examination Application</NavDropdown.Item>
-                <NavDropdown.Item href="#">Results</NavDropdown.Item>
+                <LinkContainer to='/result/loginPage'>
+                  <NavDropdown.Item href="#">Results</NavDropdown.Item>
+                </LinkContainer>
+                
                 
               </NavDropdown>
               <NavDropdown title="VTU Departments" id="basic-nav-dropdown">

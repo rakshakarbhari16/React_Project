@@ -1,0 +1,39 @@
+{
+    "resultLogin":[
+        {
+            "id":1,
+            "RegisterId":"3PD19CS001",
+            "StudentName":"Harsha",
+            "FatherName":"Shivsharanappa",
+            "CollegeName":"PDA College of Engg"
+        },
+        {
+            "id":2,
+            "RegisterId":"3PD19CS002",
+            "StudentName":"Raksha",
+            "FatherName":"Dattatreya",
+            "CollegeName":"PDA College of Engg"
+        },
+        {
+            "id":3,
+            "RegisterId":"3ST19CS221",
+            "StudentName":"Riya",
+            "FatherName":"Krishna",
+            "CollegeName":"Oxford university"
+        },
+        {
+            "id":4,
+            "RegisterId":"3RV19CS456",
+            "StudentName":"Ram",
+            "FatherName":"Sharan",
+            "CollegeName":"Reva University"
+        },
+        {
+            "id":5,
+            "RegisterId":"3PD19CS455",
+            "StudentName":"Harsha",
+            "FatherName":"Appaji",
+            "CollegeName":"Reva University"
+        }
+    ]
+}
